@@ -1,0 +1,101 @@
+# ==========================
+# Node.js Dependencies
+# ==========================
+frontend/node_modules/
+node_modules/
+
+# ==========================
+# Frontend Build Files
+# ==========================
+frontend/dist/
+frontend/dist-ssr/
+dist/
+build/
+
+# ==========================
+# Python Virtual Environments
+# ==========================
+venv/
+.venv/
+.venv-1/
+env/
+ENV/
+pyvenv.cfg
+
+# ==========================
+# Python Cache Files
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Django Files
+# ==========================
+db.sqlite3
+*.sqlite3
+
+# Django Static Files
+staticfiles/
+
+# User Uploads (optional)
+media/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.local
+.env.*.local
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Machine Learning Files
+# ==========================
+*.joblib
+*.pkl
+*.h5
+*.keras
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code / IDE
+# ==========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing / Coverage
+# ==========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ==========================
+# Docker
+# ==========================
+*.tar
+
+# ==========================
+# Celery
+# ==========================
+celerybeat-schedule
